@@ -2,8 +2,6 @@
 
 Bot Telegram sederhana untuk menghasilkan kode OTP 2FA menggunakan secret. Didesain untuk kemudahan dan kecepatan penggunaan.
 
-![Bot Tele 2FA](https://repository-images.githubusercontent.com/671940000/8d0df200-e2ab-11ed-83db-12d858ac17df)
-
 ## 🚀 Fitur Utama
 
 * 🔒 Mendapatkan kode OTP 2FA dengan mudah
