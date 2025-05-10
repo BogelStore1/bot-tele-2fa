@@ -18,21 +18,21 @@ Clone repository ini dan install dependensi:
 ```bash
 git clone https://github.com/BogelStore1/bot-tele-2fa.git
 cd bot-tele-2fa
-npm install telegraf axios dotenv
+npm install
 ```
 
 Edit file `.env` untuk menambahkan token bot Telegram Anda:
 
 ```
-BOT_TOKEN=your_bot_token
+BOT_TOKEN=
 ```
 
 ## 🏃 Menjalankan Bot
 
 Setelah semua file terunduh dan konfigurasi selesai, jalankan bot dengan perintah:
 
-```bash
-node index.js
+```
+npm start
 ```
 
 Bot Anda sekarang aktif dan siap menerima secret 2FA.
