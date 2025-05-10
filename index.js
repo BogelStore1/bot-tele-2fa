@@ -16,7 +16,7 @@ bot.on('text', async (ctx) => {
     const otp = res.data.otp;
 
     if (otp) {
-      ctx.reply(`\`${otp}\``); // Format mono dengan satu backtick
+      ctx.reply(`\`${otp}\``);
     } else {
       ctx.reply('❌ Gagal mendapatkan OTP. Secret tidak valid.');
     }
