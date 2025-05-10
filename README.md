@@ -24,6 +24,10 @@ npm install
 Edit file `.env` untuk menambahkan token bot Telegram Anda:
 
 ```
+nano .env
+```
+
+```
 BOT_TOKEN=
 ```
 
