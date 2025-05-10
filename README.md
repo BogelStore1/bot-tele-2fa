@@ -1,54 +1,50 @@
-🤖 Bot Tele 2FA - Secret OTP Generator
+# 🤖 Bot Tele 2FA - Secret OTP Generator
 
 Bot Telegram sederhana untuk menghasilkan kode OTP 2FA menggunakan secret. Didesain untuk kemudahan dan kecepatan penggunaan.
 
+![Bot Tele 2FA](https://repository-images.githubusercontent.com/671940000/8d0df200-e2ab-11ed-83db-12d858ac17df)
 
+## 🚀 Fitur Utama
 
-🚀 Fitur Utama
-
-🔒 Mendapatkan kode OTP 2FA dengan mudah
-
-🎨 Format mono untuk memudahkan penyalinan OTP
-
-💥 Tidak ada batas minimum karakter secret
-
-⚡️ Ringan dan cepat digunakan
-
-
+* 🔒 Mendapatkan kode OTP 2FA dengan mudah
+* 🎨 Format mono untuk memudahkan penyalinan OTP
+* 💥 Tidak ada batas minimum karakter secret
+* ⚡️ Ringan dan cepat digunakan
 
 ---
 
-📦 Installasi
+## 📦 Installasi
 
 Clone repository ini dan install dependensi:
 
+```bash
 git clone https://github.com/BogelStore1/bot-tele-2fa.git
 cd bot-tele-2fa
 npm install telegraf axios dotenv
+```
 
-Edit file .env untuk menambahkan token bot Telegram Anda:
+Edit file `.env` untuk menambahkan token bot Telegram Anda:
 
+```
 BOT_TOKEN=your_bot_token
+```
 
-🏃 Menjalankan Bot
+## 🏃 Menjalankan Bot
 
 Setelah semua file terunduh dan konfigurasi selesai, jalankan bot dengan perintah:
 
+```bash
 node index.js
+```
 
 Bot Anda sekarang aktif dan siap menerima secret 2FA.
 
-
 ---
 
-🤝 Kontribusi
+## 🤝 Kontribusi
 
 Silakan fork repository ini dan buat pull request jika Anda memiliki ide untuk pengembangan bot ini.
 
-📜 Lisensi
+## 🌐 Link Repositori
 
-Bot ini menggunakan lisensi MIT. Lihat file LICENSE untuk informasi lebih lanjut.
-
-🌐 Link Repositori
-
-bot-tele-2fa
+[BOT TELE 2FA](https://github.com/BogelStore1/bot-tele-2fa)
